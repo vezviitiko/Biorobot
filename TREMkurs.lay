@@ -1,0 +1,25 @@
+LAYOUT(TabMainLayout, 708, 432)
+	ITEM(Label, lab1server, LeftPosZ(360, 340).VCenterPosZ(108, 158))
+	ITEM(StaticText, dv___1, SetText(t_("Пульс")).SetAlign(ALIGN_CENTER).SetFont(StdFontZ(12)).LeftPosZ(360, 72).TopPosZ(68, 24))
+	ITEM(StaticText, dv___2, SetText(t_("Давление")).SetAlign(ALIGN_CENTER).SetFont(StdFontZ(12)).LeftPosZ(360, 72).TopPosZ(36, 24))
+	ITEM(StaticText, dv___3, SetText(t_("/")).SetAlign(ALIGN_CENTER).SetFont(StdFontZ(12)).LeftPosZ(480, 32).TopPosZ(36, 24))
+	ITEM(StaticText, dv___4, SetText(t_("Показания приборов")).SetAlign(ALIGN_CENTER).SetFont(StdFontZ(12)).LeftPosZ(360, 196).TopPosZ(4, 28))
+	ITEM(StaticText, dv___5, SetText(t_("Отработка ИС")).SetAlign(ALIGN_CENTER).SetFont(StdFontZ(12)).LeftPosZ(360, 340).TopPosZ(300, 20))
+	ITEM(StaticText, dv___6, SetText(t_("Отработка сервера")).SetAlign(ALIGN_CENTER).SetFont(StdFontZ(12)).LeftPosZ(360, 340).TopPosZ(96, 20))
+	ITEM(Label, lab1, LeftPosZ(360, 340).TopPosZ(116, 184))
+	ITEM(Button, btnStop, SetLabel(t_("STOP")).LeftPosZ(576, 124).VCenterPosZ(32, -148))
+	ITEM(Button, btnStart, SetLabel(t_("START")).LeftPosZ(576, 124).VCenterPosZ(32, -188))
+	ITEM(ImageCtrl, image_puls, LeftPosZ(148, 40).TopPosZ(188, 36))
+	ITEM(ImageCtrl, image_davl, LeftPosZ(148, 40).TopPosZ(188, 36))
+	ITEM(ImageCtrl, image_target, LeftPosZ(8, 348).TopPosZ(4, 424))
+	ITEM(EditInt, puls, LeftPosZ(436, 120).TopPosZ(68, 24))
+	ITEM(EditInt, davl2, LeftPosZ(508, 48).TopPosZ(36, 24))
+	ITEM(EditInt, davl1, LeftPosZ(436, 48).VSizePosZ(36, 372))
+END_LAYOUT
+
+LAYOUT(TabManLayout, 708, 432)
+	ITEM(Label, dv___0, SetLabel(t_("Какое-нибудь дополнительное описание для красоты")).SetAlign(ALIGN_CENTER).SetFont(StdFontZ(16)).LeftPosZ(184, 440).TopPosZ(96, 324))
+	ITEM(Label, dv___1, SetLabel(t_("Дополнительное описание")).SetAlign(ALIGN_CENTER).SetFont(StdFontZ(16)).LeftPosZ(100, 524).TopPosZ(20, 64))
+	ITEM(ImageCtrl, image_logo, LeftPosZ(12, 168).TopPosZ(96, 148))
+END_LAYOUT
+
