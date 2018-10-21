@@ -20,8 +20,8 @@ void TREMkurs::TabMainScreen(){
 		KillTimeCallback(); // удаление предыдущего запуска если он есть
 		SetTimeCallback(-200, tabMain.btnStart.WhenPush = THISBACK(ButStart));
 		};*/
-	SetTimeCallback(-200, tabMain.btnStart.WhenPush = THISBACK(ButStart));
-	//tabMain.btnStart.WhenPush = THISBACK(ButStart);
+	//SetTimeCallback(-200, tabMain.btnStart.WhenPush = THISBACK(ButStart));
+	tabMain.btnStart.WhenPush = THISBACK(ButStart);
 	tabMain.btnStop.WhenPush = THISBACK(ButStop);
 	
 }
