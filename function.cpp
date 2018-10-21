@@ -11,12 +11,12 @@ void TREMkurs::ButStart(){
 	}*/
 	
 	tabMain.lab1server = "Данные отправлены на сервер";
-	system("pause");
+	//system("pause");
 	data_pauls = tabMain.puls;
 	data_davl1 = tabMain.davl1;
 	data_davl2 = tabMain.davl2;
 	tabMain.lab1server = "Данные отправлены на сервер\nДанные обрабатываются на сервере";
-	system("pause");
+	//system("pause");
 	if (data_pauls == 0 or data_davl1 == 0 or data_davl2 == 0)
 		{	data_launch = "Нужна реанимация и срочный массаж сердца";	}
 	else if (data_pauls > 150 or data_davl1 > 150 or data_davl2 > 150)
